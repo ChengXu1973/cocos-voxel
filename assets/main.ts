@@ -54,6 +54,7 @@ export class Main extends Component {
     frame: number;
 
     onLoad() {
+        this.size = ~~(0.2 * (MAX - MIN)) + MIN;
         this._onSizeChange();
     }
 
