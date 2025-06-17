@@ -1,3 +1,6 @@
 {
-  "__version__": "1.0.12"
+  "__version__": "1.0.12",
+  "macroConfig": {
+    "BATCHER2D_MEM_INCREMENT": 1024
+  }
 }
